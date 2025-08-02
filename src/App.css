@@ -583,7 +583,7 @@ html, body {
 
   .sort-dropdown {
     margin-left: 0;
-    align-self: flex-end; /* optional: right-align dropdown on mobile */
+    align-self: flex-end; 
   }
 
   .sort-dropdown select {
