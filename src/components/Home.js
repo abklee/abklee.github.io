@@ -33,7 +33,7 @@ function Home() {
 
   useEffect(() => {
     const username = 'abklee';
-    const apiKey = '6cfd27ed445af53c6dc58d5af63d77d2'; // bad practice i know but its just for last.fm so nbd 
+    const apiKey = '6cfd27ed445af53c6dc58d5af63d77d2'; // last fm
     //93d2dca8d83af4a8767b54f929e9997a
 
     fetch(`https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=${username}&api_key=${apiKey}&format=json&limit=1`)
